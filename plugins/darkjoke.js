@@ -1,6 +1,6 @@
 let fetch = require('node-fetch')
 let arr = []
-fetch('https://raw.githubusercontent.com/Caliph71/txt/main/darkjokes.txt')
+fetch('https://raw.githubusercontent.com/Laksmana27/DATABASE-2/main/darkjokes.txt')
     .then(res => res.text())
     .then(txt => arr = txt.split('\n'))
 let handler = async (m, { conn }) => {
