@@ -201,94 +201,94 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                   "description": "",
                   "rowId": ".? all"
                 }, {
-                  "title": "Game",
-                  "description": "MENU PERMAINAN🎮",
+                  "title": "MENU 1 |🥏|",
+                  "description": "GAME 🎮",
                   "rowId": ".? game"
 
                 }, {
-                  "title": "XP",
-                  "description": "MENU LEVELMU DI BOT🤡",
+                  "title": "MENU 2 |🥏|",
+                  "description": "LEVELING",
                   "rowId": ".? xp"
 
                 }, {
-                  "title": "Stiker",
-                  "description": "MENU STICKER🎫",
+                  "title": "MENU 3 |🥏|",
+                  "description": "STICKER",
                   "rowId": ".? stiker"
                 }, {
-                  "title": "Kerang Ajaib",
-                  "description": "MENU PERTANYAAN🤔",
+                  "title": "MENU 4 |🥏|",
+                  "description": "ADA PERTANYAAN?",
                   "rowId": ".? kerangajaib"
                 }, {
-                  "title": "Quotes",
-                  "description": "BUTUH MOTIVASI😏",
+                  "title": "MENU 5 |🥏|",
+                  "description": "QUOTES",
                   "rowId": ".? quotes"
                 }, {
-                  "title": "Admin",
-                  "description": "MENU UNTUK MODERATOR GRUP",
+                  "title": "MENU 6 |🥏|",
+                  "description": "HANYA UNTUK MODERATOR GRUP",
                   "rowId": ".? admin"
                 }, {
-                  "title": "Grup",
-                  "description": "MENU UNTUK GRUP",
+                  "title": "MENU 7 |🥏|",
+                  "description": "HANYA UNTUK GRUP",
                   "rowId": ".? grup"
                 }, {
-                  "title": "Premium",
-                  "description": "MENU UNTUK ANGGOTA PREMIUM",
+                  "title": "MENU 8 |🥏|",
+                  "description": "HANYA UNTUK ANGGOTA PREMIUM",
                   "rowId": ".? premium"
                 }, {
-                  "title": "Internet",
-                  "description": "MENU INTERNET",
+                  "title": "MENU 9 |🥏|",
+                  "description": "INTERNET",
                   "rowId": ".? internet"
                 }, {
-                  "title": "Anonymous",
+                  "title": "MENU 10 |🥏|",
                   "description": "ANONYMOUS CHAT",
                   "rowId": ".? anonymous"
                 }, {
-                  "title": "Nulis & Logo",
-                  "description": "MENU MEMBUAT LOGO👻",
+                  "title": "MENU 11 |🥏|",
+                  "description": "MEMBUAT LOGO",
                   "rowId": ".? nulis"
                 }, {
-                  "title": "Downloader",
-                  "description": "MENU DOWNLOAD🌷",
+                  "title": "MENU 12 |🥏|",
+                  "description": "DOWNLOAD",
                   "rowId": ".? downloader"
                 }, {
-                  "title": "Tools",
-                  "description": "MENU ALAT",
+                  "title": "MENU 13 |🥏|",
+                  "description": "TOOLS BOT",
                   "rowId": ".? tools"
                 }, {
-                  "title": "Fun",
-                  "description": "MENU PERMAINAN👻",
+                  "title": "MENU 14 |🥏|",
+                  "description": " PERMAINAN",
                   "rowId": ".? fun"
                 }, {
-                  "title": "Database",
-                  "description": "DATABASE BOT👻",
+                  "title": "MENU 15 |🥏|",
+                  "description": "DATABASE BOT",
                   "rowId": ".? database"
                 }, {
-                  "title": "Vote & Absen",
-                  "description": "ABSEN? GAS😂",
+                  "title": "MENU 16 |🥏|",
+                  "description": "ABSEN",
                   "rowId": ".? vote"
                 }, {
-                  "title": "Al-Qur\'an",
-                  "description": "MENU AL-QURAN",
+                  "title": "MENU 17 |🥏|",
+                  "description": "AL-QURAN",
                   "rowId": ".? quran"
                 }, {
-                  "title": "Pengubah Suara",
-                  "description": "INGIN MENGUBAH SUARA APA?",
+                  "title": "MENU 18 |🥏|",
+                  "description": "PENGUBAH SUARA",
                   "rowId": ".? audio"
                 }, {
-                  "title": "Jadi Bot",
-                  "description": "INGIN JADI BOT?",
+                  "title": "MENU 19 |🥏|",
+                  "description": "JADI BOT",
                   "rowId": ".? jadibot"
                 }, {
-                  "title": "Info",
-                  "description": "MENU INFORMASI",
+                  "title": "MENU 20 |🥏|",
+                  "description": "INFORMASI BOT",
                   "rowId": ".? info"
                 }, {
-                  "title": "Tanpa Kategori",
-                  "description": "NOTHING:)",
+                  "title": "MENU 00 |🥏|",
+                  "description": "TIDAK ADA",
                   "rowId": ".? tanpakategori"
                 }, {
-                  "title": "Owner",
-                  "description": "MENU UNTUK GUA:)",
+                  "title": "MENU 22 |🥏|",
+                  "description": "OWNER",
                   "rowId": ".? owner"
                 }
               ]
@@ -427,3 +427,4 @@ function ucapan() {
   }
   return res
 }
+
