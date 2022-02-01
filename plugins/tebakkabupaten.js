@@ -14,11 +14,11 @@ let handler = async (m, { conn, usedPrefix }) => {
     let json = data[Math.floor(Math.random() * data.length)]
     let caption = `
 Timeout *${(timeout / 1000).toFixed(2)} detik*
-Ketik ${usedPrefix}tekb untuk bantuan
+Ketik ${usedPrefix}lalu untuk bantuan
 Bonus: ${poin} XP
 `.trim()
     conn.tebakkabupaten[id] = [
-        await conn.sendButtonImg(m.chat, await (await fetch(json.url)).buffer(), caption, watermark, 'Bantuan', '.teka', m),
+        await conn.sendButtonImg(m.chat, await (await fetch(json.url)).buffer(), caption, watermark, 'Bantuan', '.lalu', m),
         json, poin,
         setTimeout(async () => {
             if (conn.tebakkabupaten[id]) await conn.sendButton(m.chat, `Waktu habis!\nJawabannya adalah *${json.title}*`, watermark, 'Tebak Kabupaten', '.tebakkabupaten', conn.tebakkabupaten[id][0])
