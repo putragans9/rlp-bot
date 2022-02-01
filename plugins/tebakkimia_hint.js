@@ -6,6 +6,6 @@ let handler = async (m, { conn }) => {
     let clue = json.unsur.replace(/[AIUEOaiueo]/g, '_')
     conn.reply(m.chat, '```' + clue + '```\nBalas soalnya, bukan pesan ini', conn.tebakkimia[id][0])
 }
-handler.command = /^teki$/i
+handler.command = /^lah$/i
 handler.limit = true
 module.exports = handler
