@@ -34,7 +34,7 @@ global.APIKeys = { // APIKey nya disini
   'https://api.vhtear.com': 'sayahafiz',
   'https://fxc7-api.herokuapp.com': 'uN8rsK4g',
   'https://api.justaqul.xyz': '5kbUqdG00OXelFYx',
-  'http://zekais-api.herokuapp.com': 'grqgD6pU'
+  'http://zekais-api.herokuapp.com': 'grqgD6pU',
   'https://melcanz.com': 'trial',
   'https://server-api-rey.herokuapp.com': 'apirey',
   'https://bx-hunter.herokuapp.com': 'Ikyy69',
