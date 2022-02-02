@@ -1,7 +1,7 @@
 function handler(m) {
   m.reply('Chat jika penting, harap tidak spam.')
-  this.sendContact(m.chat, '19014445701@s.whatsapp.net', 'RLP-BOT', m)
-}
+  this.sendContact(m.chat, '62895372305081@s.whatsapp.net', '๖ۣۜℜLP27', m)
+
 handler.help = ['owner', 'creator']
 handler.tags = ['info']
 
