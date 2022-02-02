@@ -7,16 +7,8 @@ let handler = async (m, { conn }) => {
     let _uptime = process.uptime() * 1000
     let uptime = clockString(_uptime)
 
-    conn.send2ButtonLoc(m.chat, await(await fetch(image)).buffer, `
-┌─〔 Info Haruno Bot 〕
-├ Nama (Resmi): Haruno Bot Whatsapp
-├ Dipoperasikan sejak: 12 Juli 2021 (12 Februari 2021)
-├ Owner: Fadli
-├ Bahasa: Nodejs
-├ Run: Heroku
-└────
-
-┌─〔 Status 〕
+    m.reply(`
+┌─「 *Status* 」
 ├ Aktif selama ${uptime}
 ├ Baterai ${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 pengisian' : ''}` : 'tidak diketahui'}
 ├ *${groups.length}* Grup
@@ -28,17 +20,17 @@ let handler = async (m, { conn }) => {
 ├ *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* Pengguna Terbanned
 └────
 
-┌─〔 Pengaturan 〕
+┌─「 *Pengaturan* 」
 ├ ${anon ? '✅' : '❌'} *Anon Chat*
 ├ ${anticall ? '✅' : '❌'} *Anti Call*
 ├ ${antispam ? '✅' : '❌'} *Anti Spam*
 ├ ${antitroli ? '✅' : '❌'} *Anti Troli*
 ├ ${backup ? '✅' : '❌'} *Auto Backup DB*
-├ ${groupOnly ? '✅' : '❌'} *Mode Grup*
+├ ${group ? '✅' : '❌'} *Mode Grup*
 ├ ${jadibot ? '✅' : '❌'} *Jadi Bot*
 ├ ${nsfw ? '✅' : '❌'} *Mode Nsfw*
 └────
-    `.trim(), watermark, 'Menu', '.?', 'Owner', '.owner')
+    `.trim())
 }
 handler.help = ['botstatus']
 handler.tags = ['info']
