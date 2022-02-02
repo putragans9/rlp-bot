@@ -16,7 +16,7 @@ global.APIs = { // API Prefix
   vhtear: 'https://api.vhtear.com',
   lolhum: 'https://api.lolhuman.xyz',
   fxc7: 'https://fxc7-api.herokuapp.com',
-  aqul: 'https://api.justaqul.xyz'
+  aqul: 'https://api.justaqul.xyz',
   amel: 'https://melcanz.com',
   bx: 'https://bx-hunter.herokuapp.com',
   rey: 'https://server-api-rey.herokuapp.com',
