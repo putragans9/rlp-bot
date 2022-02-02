@@ -17,7 +17,10 @@ global.APIs = { // API Prefix
   lolhum: 'https://api.lolhuman.xyz',
   fxc7: 'https://fxc7-api.herokuapp.com',
   aqul: 'https://api.justaqul.xyz'
-
+  amel: 'https://melcanz.com',
+  bx: 'https://bx-hunter.herokuapp.com',
+  rey: 'https://server-api-rey.herokuapp.com',
+  dhnjing: 'https://dhnjing.xyz',
 }
 global.APIKeys = { // APIKey nya disini
   // 'https://website': 'apikey'
@@ -32,6 +35,9 @@ global.APIKeys = { // APIKey nya disini
   'https://fxc7-api.herokuapp.com': 'uN8rsK4g',
   'https://api.justaqul.xyz': '5kbUqdG00OXelFYx',
   'http://zekais-api.herokuapp.com': 'grqgD6pU'
+  'https://melcanz.com': 'trial',
+  'https://server-api-rey.herokuapp.com': 'apirey',
+  'https://bx-hunter.herokuapp.com': 'Ikyy69',
 }
 
 // Sticker WM
